@@ -64,7 +64,7 @@ public class MyEnumerationPersistence implements UserType, ParameterizedType {
     }
 
     public Class<?> returnedClass() {
-        return enumClass;
+        return this.enumClass;
     }
 
     @Override
