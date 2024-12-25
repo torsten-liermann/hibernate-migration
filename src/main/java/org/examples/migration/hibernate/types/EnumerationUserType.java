@@ -14,7 +14,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 
-public class MyEnumerationPersistence implements UserType, ParameterizedType {
+public class EnumerationUserType implements UserType, ParameterizedType {
 
     private static final long serialVersionUID = 1L;
 
